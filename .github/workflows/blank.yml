@@ -35,5 +35,5 @@ jobs:
         run: |
           echo Add other actions to build,
           echo github.event.commits[0].author.name
-          echp github.author
+          echo github.author
           echo end.
