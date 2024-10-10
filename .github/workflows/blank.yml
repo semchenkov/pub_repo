@@ -36,4 +36,5 @@ jobs:
           echo Add other actions to build,
           echo $github.event.commits[0].author.name
           echo $github.author
+          env
           echo end.
