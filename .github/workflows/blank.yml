@@ -34,4 +34,6 @@ jobs:
       - name: Run a multi-line script
         run: |
           echo Add other actions to build,
-          echo test, and deploy your project.
+          echo github.event.commits[0].author.name
+          echp github.author
+          echo end.
