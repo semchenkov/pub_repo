@@ -27,8 +27,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-#        if: github.ref_name == 'dev' && github.github_actor == 'semchenkov'
-        if: ${{github.actor == 'semchenkov'}}
+        if: github.ref_name == 'dev' && ${{github.actor == 'semchenkov'}}
         run: echo Hello, world!
 
       # Runs a set of commands using the runners shell
